@@ -1,0 +1,109 @@
+/* Gameplay-Specific */
+body {
+    min-width: 700px;
+}
+
+h1 {
+    font-size: min(30pt, 8vw);
+}
+
+#link_p,
+#link {
+    color: #888;
+    text-align: center;
+}
+
+#link {
+    width: 80vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+#link:focus {
+    font-weight: bold;
+    color: black;
+}
+
+#board {
+    outline: 50px solid #444;
+    margin: 50px;
+    padding: 0;
+
+    background-image: repeating-linear-gradient(0deg, transparent 0px, transparent 47px, grey 49px, grey 50px), repeating-linear-gradient(90deg, transparent 0px, transparent 49px, grey 49px, grey 50px);
+
+    transition: border 0.5s;
+}
+
+#status {
+    text-align: center;
+    font-size: 200%;
+}
+
+#score_0 {
+    color: red;
+}
+
+#score_1 {
+    color: blue;
+}
+
+#progress-bar {
+    height: 40px;
+    border-radius: 20px;
+    width: 480px;
+    /* 20px always at each side; 200px in middle has proportion */
+    background-color: grey;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#progress_0 {
+    margin-left: -2px;
+    height: 100%;
+    width: 40px;
+    background-color: red;
+    float: left;
+    border-right: 2px solid white;
+    border-radius: 20px;
+    transition: width 1s;
+}
+
+#progress_1 {
+    margin-right: -2px;
+    height: 100%;
+    width: 40px;
+    background-color: blue;
+    float: right;
+    border-left: 2px solid white;
+    border-radius: 20px;
+    transition: width 1s;
+}
+
+#status.win_0 {
+    color: red;
+}
+
+#status.win_1 {
+    color: blue;
+}
+
+#status.draw {
+    background-color: darkgrey;
+    color: white;
+}
+
+#board.win_0 {
+    box-shadow: 0 0 100px red;
+}
+
+#board.win_1 {
+    box-shadow: 0 0 100px blue;
+}
+
+#board.draw {
+    box-shadow: 0 0 100px #ccc;
+}

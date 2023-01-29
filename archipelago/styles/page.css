@@ -1,0 +1,106 @@
+/* Main CSS */
+h1 {
+    background: linear-gradient(135deg, red 0%, red 50%, blue 50%, blue 100%);
+    background-size: cover;
+    -webkit-text-stroke: black 0.03em;
+    font-size: min(70pt, 8vw);
+    -webkit-text-fill-color: transparent;
+    font-family: "Press Start 2P";
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+header {
+    background: repeat url(https://webcoder49.github.io/media-and-more/archipelago/images/GameBackgroundLight.png);
+    background-size: contain;
+    padding: 1em;
+    margin: 0;
+    top: 0;
+    position: sticky;
+
+    z-index: 100;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    background-image: repeating-linear-gradient(0deg, transparent 0px, transparent 49px, #ccc 49px, grey 50px), repeating-linear-gradient(90deg, transparent 0px, transparent 49px, #ccc 49px, #ccc 50px);
+    /* Board Design */
+
+    background-attachment: fixed;
+}
+
+p,
+input {
+    font-family: "Lato", sans-serif;
+}
+
+section {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 20px;
+
+    display: inline-block;
+}
+
+section:nth-child(odd) {
+    border: 5px dashed #f004;
+}
+
+section:nth-child(even) {
+    border: 5px dashed #00f4;
+}
+
+section h2 {
+    margin-top: -50px;
+    padding: 5px;
+    z-index: 2;
+    background-color: white;
+    border: 5px dashed #4444;
+    color: #444;
+    font-family: "Press Start 2P";
+}
+
+section button {
+    padding: 10px;
+    margin: 5px;
+    border: 5px dashed white;
+    color: white;
+
+    font-size: min(30pt, 8vw);
+    font-family: "Press Start 2P";
+}
+
+section:nth-child(odd) button {
+    background-color: red;
+}
+
+section:nth-child(even) button {
+    background-color: blue;
+}
+
+button {
+    cursor: pointer;
+}
+
+button[disabled] {
+    opacity: 0.25;
+    color: #444;
+    border-color: #444;
+}
+
+button:not(button[disabled]):hover {
+    padding: 15px;
+    margin: 0;
+}
+
+p {
+    text-align: left;
+    font-size: 15pt;
+    color: #444;
+}
