@@ -3,7 +3,7 @@ h1 {
     background: linear-gradient(135deg, red 0%, red 50%, blue 50%, blue 100%);
     background-size: cover;
     -webkit-text-stroke: black 0.03em;
-    font-size: min(70pt, 8vw);
+    font-size: min(70pt, 6vw);
     -webkit-text-fill-color: transparent;
     font-family: "Press Start 2P";
     -webkit-background-clip: text;
