@@ -107,3 +107,36 @@ h1 {
 #board.draw {
     box-shadow: 0 0 100px #ccc;
 }
+
+/* AI Selection */
+#difficulty_form input:hover:not(:checked) {
+    border: 5px dashed #00f4;
+    margin: 5px;
+    margin-left: -10em;
+}
+
+#difficulty_form input:checked {
+    border: 5px dashed #00f8;
+    margin: 5px;
+    margin-left: -10em;
+}
+#difficulty_form label {
+    width: 10em;
+    padding-left: 10px!important;
+    padding-right: 0!important;
+    display: block;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+#difficulty_form input {
+    margin-left: -10em;
+    width: 10em;
+    appearance: none;
+    display: block;
+    float: left;
+    height: 3em;
+    cursor: pointer;
+}
