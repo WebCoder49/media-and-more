@@ -112,13 +112,11 @@ h1 {
 #difficulty_form input:hover:not(:checked) {
     border: 5px dashed #00f4;
     margin: 5px;
-    margin-left: -10em;
 }
 
 #difficulty_form input:checked {
     border: 5px dashed #00f8;
     margin: 5px;
-    margin-left: -10em;
 }
 #difficulty_form label {
     width: 10em;
@@ -132,13 +130,16 @@ h1 {
     font-family: 'Lato', sans-serif;
 }
 #difficulty_form input {
-    margin-left: -10em;
-    width: 10em;
     appearance: none;
     display: block;
     float: left;
-    height: 3em;
+    position: relative;
+    top: 0;
+    left: -10em;
     cursor: pointer;
+    width: 10em;
+    height: 3em;
+    margin: 10px;
 }
 #difficulty_form {
     width: 80vw;
