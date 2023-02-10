@@ -112,6 +112,11 @@ h1 {
 #difficulty_form {
     text-align: center;
 }
+
+#difficulty_form.locked {
+    pointer-events: none;
+}
+
 #difficulty_form input:hover:not(:checked) {
     border: 5px dashed #00f4;
     margin: 5px;
@@ -121,6 +126,11 @@ h1 {
     border: 5px dashed #00f8;
     margin: 5px;
 }
+
+#difficulty_form.locked input:checked {
+    border: 5px dashed #00ff;
+}
+
 #difficulty_form label {
     width: 10em;
     padding: 10px!important;
