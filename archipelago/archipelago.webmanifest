@@ -1,0 +1,41 @@
+{
+    "name": "Play Archipelago",
+    "short_name": "Archipelago",
+    "description": "Play the puzzle game offline against four levels of AI, and practise to beat your friends in online play, all from your home screen!",
+    "icons": [
+    {
+        "src": "images/GameBoard.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+    },
+    {
+        "src": "images/GameBoard-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    },
+    {
+        "src": "images/GameBoard-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+    },
+    {
+        "src": "images/GameBoard-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+    },
+    {
+        "src": "images/GameBoard-64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+    },
+    {
+        "src": "images/GameBoard-32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+    }
+    ],
+    "start_url": "https://archidev.og49.repl.co/",
+    "display": "fullscreen",
+    "theme_color": "#FF0000",
+    "background_color": "#8888FF"
+}
