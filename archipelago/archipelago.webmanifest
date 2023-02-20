@@ -1,8 +1,14 @@
 {
-    "name": "Play Archipelago",
+    "name": "Archipelago",
     "short_name": "Archipelago",
     "description": "Play the puzzle game offline against four levels of AI, and practise to beat your friends in online play, all from your home screen!",
     "icons": [
+    {
+        "src": "images/GameBoard-maskable.png",
+        "sizes": "1024x1024",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
     {
         "src": "images/GameBoard.png",
         "sizes": "1024x1024",
