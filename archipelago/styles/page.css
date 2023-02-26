@@ -124,3 +124,17 @@ hr {
     border: 0;
     border-top: 5px dashed #ccc;
 }
+
+/* Score Display */
+p.score-display:nth-child(4n+2) {
+    color: blue;
+}
+
+p.score-display:nth-child(4n) {
+    color: red;
+}
+p.score-display {
+    text-align: right;
+    font-weight: bold;
+    font-size: 150%;
+}
