@@ -99,6 +99,11 @@ button:not(button[disabled]):hover {
     margin: 0;
 }
 
+button .material-symbols-outlined {
+    font-size: 120%;
+    margin-right: 1em;
+}
+
 p {
     text-align: left;
     font-size: 15pt;
