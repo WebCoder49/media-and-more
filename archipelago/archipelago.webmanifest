@@ -40,7 +40,7 @@
         "type": "image/png"
     }
     ],
-    "start_url": "https://archidev.og49.repl.co/",
+    "start_url": "https://archipelago.og49.repl.co/",
     "display": "fullscreen",
     "theme_color": "#FF0000",
     "background_color": "#8888FF"
