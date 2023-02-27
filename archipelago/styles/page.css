@@ -126,11 +126,11 @@ hr {
 }
 
 /* Score Display */
-p.score-display:nth-child(4n+2) {
+p.score-display:nth-child(4n+1) {
     color: blue;
 }
 
-p.score-display:nth-child(4n) {
+p.score-display:nth-child(4n+3) {
     color: red;
 }
 p.score-display {
