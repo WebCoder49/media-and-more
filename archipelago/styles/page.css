@@ -1,11 +1,12 @@
 /* Main CSS */
 h1 {
-    background: linear-gradient(135deg, red 0%, red 50%, blue 50%, blue 100%);
+    background: linear-gradient(#fff8, transparent), 
+                linear-gradient(135deg, red 0%, red 50%, blue 50%, blue 100%);
     background-size: cover;
     -webkit-text-stroke: black 0.03em;
     font-size: min(70pt, 6vw);
     -webkit-text-fill-color: transparent;
-    font-family: "Press Start 2P";
+    font-family: "Comfortaa";
     -webkit-background-clip: text;
     background-clip: text;
 }
@@ -26,7 +27,9 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: repeating-linear-gradient(0deg, transparent 0px, transparent 49px, #ccc 49px, grey 50px), repeating-linear-gradient(90deg, transparent 0px, transparent 49px, #ccc 49px, #ccc 50px);
+    background-image: radial-gradient(transparent, grey), 
+                        repeating-linear-gradient(0deg, transparent 0px, transparent 49px, #ccc 49px, #ccc 50px), 
+                        repeating-linear-gradient(90deg, transparent 0px, transparent 49px, #ccc 49px, #ccc 50px);
     /* Board Design */
 
     background-attachment: fixed;
@@ -39,6 +42,9 @@ input {
 
 section {
     background-color: white;
+    box-shadow: 0px 0px 20px grey;
+
+    border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -59,29 +65,43 @@ section:nth-child(even) {
 section h2 {
     margin-top: -50px;
     padding: 5px;
+    border-radius: 20px;
     z-index: 2;
+
+
     background-color: white;
     border: 5px dashed #4444;
-    color: #444;
-    font-family: "Press Start 2P";
+    color: black;
+    font-family: "Shantell Sans";
 }
 
 section button {
     padding: 10px;
     margin: 5px;
+    border-radius: 20px;
+
     border: 5px dashed white;
     color: white;
+    box-shadow: 0 0 20px grey;
 
     font-size: min(30pt, 8vw);
-    font-family: "Press Start 2P";
+    font-family: "Comfortaa";
 }
 
 section:nth-child(odd) button {
     background-color: red;
+    background: linear-gradient(#f88, #f00);
+}
+section:nth-child(odd) button:hover {
+    background: linear-gradient(#f00, #f88);
 }
 
 section:nth-child(even) button {
     background-color: blue;
+    background: linear-gradient(#88f, #00f);
+}
+section:nth-child(even) button:hover {
+    background: linear-gradient(#00f, #88f);
 }
 
 button {
